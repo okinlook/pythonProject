@@ -20,8 +20,8 @@ left(90)
 forward(200)
 left(90)
 forward(250)
-exitonclick
 tvar = textinput("ahoj","co mam kreslit: ")
+exitonclick
 if tvar == "čtverec":
     for i in range(4):
         forward(100)
